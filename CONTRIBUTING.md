@@ -12,7 +12,7 @@ Before you start, please take a moment to read through these guidelines.
 
 - Always request to be assigned to an issue before working on it, especially during the Hacktoberfest period. This helps prevent conflicting and duplicate work.
 - Comment on the issue you'd like to work on, asking to be assigned.
-- Wait for [@lyqht](https://github.com/lyqht) to assign you before starting work.
+<!-- - Wait for [@lyqht](https://github.com/lyqht) to assign you before starting work. -->
 
 ### Reporting Bugs or Suggesting Improvements
 
@@ -85,7 +85,7 @@ An easy way to add a new preset is to create the QR code on the website first, a
 ```json
 {
   "props": {
-    "data": "https://github.com/lyqht/mini-qr"
+    "data": "https://github.com/devbit-space/QR-Configuration"
     // other props...
   },
   "style": {
@@ -98,7 +98,7 @@ Combine "style" with the value of "props" in a new json.
 
 ```ts
 const yourNewPreset = {
-  data: 'https://github.com/lyqht/mini-qr',
+  data: 'https://github.com/devbit-space/QR-Configuration',
   // other props...
   style: {
     // other styles...
@@ -141,7 +141,7 @@ Please refer to the [Code of Conduct](CODE_OF_CONDUCT.md) for more details.
 
 ## Final Note
 
-The project maintainer, [@lyqht](https://github.com/lyqht), has the final say on whether a pull request will be merged. Please be patient and respectful throughout the review process.
+The project maintainer, [@devbit-space](https://github.com/devbit-space), has the final say on whether a pull request will be merged. Please be patient and respectful throughout the review process.
 
 Thank you for contributing to Mini QR! ✨
 

@@ -1,10 +1,11 @@
-# QR-Configuration
+# Mini QR
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 An app to create beautiful QR codes and scan various QR code types.
 
 <div style="display:flex; flex-direction:row; flex-wrap:wrap; justify-content:center; gap:8px;">
+    <a href="https://esteetey.dev"><img width="100" src="public/presets/lyqht.svg" /></a>
     <a href="https://www.padlet.com"><img width="100" src="public/presets/padlet.svg" /></a>
     <a href="https://www.uilicious.com">
     <img width="100" src="public/presets/uilicious.svg" />
@@ -39,15 +40,18 @@ An app to create beautiful QR codes and scan various QR code types.
 
 1. **Desktop (Chrome/Edge)**:
 
+   - Visit [mini-qr.vercel.app](https://mini-qr.vercel.app)
    - Click the install icon (➕) in the address bar
    - Click "Install" in the prompt
 
 2. **Mobile (Android)**:
 
+   - Visit [mini-qr.vercel.app](https://mini-qr.vercel.app)
    - Tap the "Add to Home Screen" option in your browser menu
    - Tap "Install" or "Add"
 
 3. **iOS (Safari)**:
+   - Visit [mini-qr.vercel.app](https://mini-qr.vercel.app)
    - Tap the Share button
    - Scroll down and tap "Add to Home Screen"
    - Tap "Add"
@@ -55,6 +59,12 @@ An app to create beautiful QR codes and scan various QR code types.
 Once installed, MiniQR will work offline and provide a native app-like experience.
 
 </details>
+
+## Demo
+
+Try it out [here](https://mini-qr.vercel.app/) ✨
+
+https://github.com/devbit-space/QR-Configuration/assets/35736525/991b2d7e-f168-4354-9091-1678d2c1bddb
 
 <details>
 <summary>Batch data export (added in v0.9.0)</summary>
@@ -82,6 +92,7 @@ https://github.com/user-attachments/assets/e160d60d-3c7f-4bbb-908c-efd11fec20e8
 Mini-QR can easily be self-hosted. We provide a [docker-compose.yml](docker-compose.yml) file as well as our own images. We are using GitHub's `ghrc.io` Container Registry.
 
 ```bash
+wget https://github.com/devbit-space/QR-Configuration/raw/main/docker-compose.yml
 
 docker compose up -d
 ```

@@ -6,7 +6,7 @@ Feat:
 - Copy to clipboard
 - UI respects user's light/dark mode preferences
 - Randomize style button
-- Available in 29 languages thanks to [deepl-translate-github-action](https://github.com/lyqht/deepl-translate-github-action)
+<!-- - Available in 29 languages thanks to [deepl-translate-github-action](https://github.com/lyqht/deepl-translate-github-action) -->
 - Save & Load QR Code config
 
 ## V0.1
